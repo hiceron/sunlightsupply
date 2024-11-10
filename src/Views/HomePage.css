@@ -1,34 +1,35 @@
-/* src/Views/HomePage.css */
-.cafe-homepage {
+/* HomePage.css */
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
     text-align: center;
-    padding: 50px;
-    }
-    .cafe-homepage h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    }
-    .cafe-homepage p {
-    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #003366;
+}
+
+p {
+    font-size: 1.2rem;
     color: #555;
-    }
-    .cafe-color-box {
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
-    transition: background-color 0.5s ease-in-out;
-    }
-    .cafe-color-box.cafe-red {
-    background-color: red;
-    }
-    .cafe-color-box.cafe-blue {
-    background-color: blue;
-    }
-   .cafe-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    }
-    .cafe-button:hover {
-    background-color: #ddd;
-    }
+}
+
+.btn-warning {
+    background-color: #ff9900;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #cc7a00;
+    color: white;
+}

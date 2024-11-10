@@ -1,0 +1,23 @@
+/* Header & Navbar Styles */
+.navbar {
+    background-color: #003366;
+}
+
+.navbar .navbar-brand .logo {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9900;
+}
+
+/* Adjustments for Fixed Navbar */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Adjust to your navbar's height */
+}
