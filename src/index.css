@@ -1,79 +1,13 @@
-/* Footer */
-.footer {
-  background-color: #003366;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.footer .social-media a {
-  color: white;
-  margin: 0 10px;
-  font-size: 1.5rem;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-/* Clients & Partners */
-.clients img {
-  max-width: 100%;
-  height: auto;
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
-
-.clients img:hover {
-  opacity: 1;
-}
-
-/* Newsletter Section */
-.newsletter {
-  background-color: #003366;
-  color: white;
-  text-align: center;
-}
-
-.newsletter input {
-  width: 300px;
-  max-width: 100%;
-}
-
-.newsletter button {
-  background-color: #ff9900;
-  border: none;
-}
-
-.newsletter button:hover {
-  background-color: #cc7a00;
-}
-
-/* Contact Section */
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  border: 0;
-}
-
-/* Mobile Styles */
-@media (max-width: 767.98px) {
-  .home-content {
-      padding: 20px;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
